@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+body{
+  max-width: 100%;
+}
+
+.gradiente {
+  background-color: rgb(255, 0, 0);
+  padding: 30px;
+
+  max-width: 100%;
+}
+
+.titulo{
+  display: block;
+  font-weight: 1000;
+  padding: 20px;
+}
+.container-pokemones{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contenido {
+  height: 250px;
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-right: 40px;
+}
+
+#seccion{
+float: left;
+padding-left: 20px;
+text-decoration: none;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+.boton-1{
+  padding: 10px;
+  width: 80px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #04AA6D;
+  border-radius: 15px;
+  filter: drop-shadow(2px 2px 20px rgb(0, 60, 255));
+}
+
+
+.botones-agua{
+  width: 150;
+  height: 250px;
+  align-items: center;
+  filter: drop-shadow(2px 2px 20px rgb(59, 143, 192));
+}
+
+.botones-fuego{
+  width: 150;
+  height: 250px;
+  align-items: center;
+  filter: drop-shadow(2px 2px 20px rgb(216, 21, 7));
+}
+
+.img-boton{
+  width: 250px;
+  height: 250px;
+}
